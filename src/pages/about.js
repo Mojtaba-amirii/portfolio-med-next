@@ -3,15 +3,9 @@ export default function About() {
     <div>
       <h1>Mojtaba Amiri</h1>
       <p>
-        This is my personal page.
-        <br />
-        Welcome to my corner of the Internet.
-        <br />
-        I have been working as a Software Developer for the past year.
-        <br />
-        My background is in fullstack developer.
-        <br />
-        I am looking for new opportunities.
+        About me This is my personal page. Welcome to my corner of the
+        Internet.Att the current moment I study yo become a Software Developer
+        and I am looking for a internship opportunity.
         <br />
       </p>
     </div>

@@ -1,5 +1,6 @@
 import MySkills from "./MySkills";
 import Projects from "./projects";
+import Footer from "./footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       </section>
       <MySkills />
       <Projects />
+      <Footer />
     </main>
   );
 }

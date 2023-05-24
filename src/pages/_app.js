@@ -6,7 +6,7 @@ import { AiFillGithub } from "react-icons/ai";
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <nav className="flex flex-col justify-between items-center mx-40 mt-10 md:flex-row md:gap-5 ">
+      <nav className="flex flex-col sticky top-0 bg-black  border-b-[3px] border-blue-700 border-opacity-50 justify-between items-center mx-40 mt-10 md:flex-row md:gap-5 ">
         <div className="flex flex-row gap-2 text-2xl font-bold  md:justify-center lg:gap-5">
           <img
             src="MUJI.jpg"
@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
             Mojtaba Amiri
           </h4>
         </div>
-        <ul className="flex flex-col font-bold  m-4 md:flex-row  md:gap-2 md:flex-end lg:flex-end lg:gap-10">
+        <ul className="flex flex-row gap-2 font-bold  m-4 md:flex-row  md:gap-2 md:flex-end lg:flex-end lg:gap-10">
           <li className=" text-blue-700 hover:text-blue-400">
             <Link href="/">Home</Link>
           </li>
@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
           <li className="text-blue-700 hover:text-blue-400">
             <Link href="/contact">Contact</Link>
           </li>
-          <div className="flex flex-row gap-3 items-center mt-0">
+          <div className="flex flex-row gap-3 items-center">
             <li className="text-blue-700 hover:text-blue-400  text-4xl cursor-pointer">
               <a
                 href="https://www.linkedin.com/in/mojtaba-amiri-a26208173/"
